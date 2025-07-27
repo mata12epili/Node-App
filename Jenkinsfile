@@ -2,7 +2,7 @@ pipeline{
     agent any
     environment{
         EC2_HOST = "65.1.148.225"
-        SSH_CREDENTIALS_ID = "JenkinsMaster"
+        SSH_CREDENTIALS_ID = "ec2-key"
         REMOTE_USER = "ubuntu"
         REMOTE_PATH = "/home/ubuntu/app"
         WEB_ROOT = "/var/www/html"
