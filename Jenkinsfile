@@ -37,7 +37,7 @@ pipeline{
                      sudo systemctl restart ${SERVER}
                      "
                     """
-                }/ Add your test commands here
+                }
             }
         }
     }
