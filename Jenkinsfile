@@ -5,7 +5,7 @@ pipeline{
         SSH_CREDENTIALS_ID = "ec2-key"
         REMOTE_USER = "ubuntu"
         REMOTE_PATH = "/home/ubuntu/app"
-        WEB_ROOT = "/var/www/html"
+        WEB_ROOT = "/var/www/html/"
         SERVER = "nginx"
     }
     stages{
